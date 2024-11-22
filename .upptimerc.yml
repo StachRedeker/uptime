@@ -3,14 +3,14 @@ owner: StachRedeker
 repo: uptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Studio Stach
+  - name: Productieserver (s243)
+    url: 141.138.169.247
+  - name: Developmentserver (h22)
+    url: 5.254.117.215
+  - name: Studio Stach Homepage
     url: https://www.studiostach.nl/
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Primaire Mailserver
+    url: https://mail.antagonist.nl/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
