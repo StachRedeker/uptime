@@ -4,7 +4,7 @@ repo: uptime # The name of this repository
 
 sites:
   - name: Developmentserver - h22
-    url: 5.254.117.215
+    url: https://h22.mijn.host
   - name: Studio Stach Homepage
     url: https://www.studiostach.nl/
   - name: Mail Relay
