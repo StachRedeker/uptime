@@ -10,7 +10,7 @@ sites:
     url: 5.254.117.215
   - name: Studio Stach Homepage
     url: https://www.studiostach.nl/
-  - name: Primaire Mailserver
+  - name: Mail Relay
     url: https://mail.antagonist.nl/
 
 status-website:
