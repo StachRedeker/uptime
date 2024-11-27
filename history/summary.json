@@ -1,20 +1,20 @@
 [
   {
-    "name": "Productieserver (s243)",
+    "name": "Productieserver - s243",
     "url": "https://s243.webhostingserver.nl",
     "icon": "https://icons.duckduckgo.com/ip3/s243.webhostingserver.nl.ico",
     "slug": "productieserver-s243",
     "status": "up",
     "uptime": "0.01%",
-    "uptimeDay": "0.04%",
+    "uptimeDay": "0.07%",
     "uptimeWeek": "0.01%",
     "uptimeMonth": "0.01%",
     "uptimeYear": "0.01%",
-    "time": 687,
-    "timeDay": 687,
-    "timeWeek": 687,
-    "timeMonth": 687,
-    "timeYear": 687,
+    "time": 586,
+    "timeDay": 586,
+    "timeWeek": 586,
+    "timeMonth": 586,
+    "timeYear": 586,
     "dailyMinutesDown": {
       "2024-11-27": 1279,
       "2024-11-26": 1440,
@@ -25,7 +25,7 @@
     }
   },
   {
-    "name": "Developmentserver (h22)",
+    "name": "Developmentserver - h22",
     "url": "5.254.117.215",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "developmentserver-h22",
@@ -35,11 +35,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 227,
-    "timeDay": 257,
-    "timeWeek": 227,
-    "timeMonth": 227,
-    "timeYear": 227,
+    "time": 224,
+    "timeDay": 241,
+    "timeWeek": 224,
+    "timeMonth": 224,
+    "timeYear": 224,
     "dailyMinutesDown": {}
   },
   {
@@ -53,11 +53,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1077,
-    "timeDay": 1170,
-    "timeWeek": 1077,
-    "timeMonth": 1077,
-    "timeYear": 1077,
+    "time": 1055,
+    "timeDay": 1087,
+    "timeWeek": 1055,
+    "timeMonth": 1055,
+    "timeYear": 1055,
     "dailyMinutesDown": {}
   },
   {
@@ -71,11 +71,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 679,
-    "timeDay": 679,
-    "timeWeek": 679,
-    "timeMonth": 679,
-    "timeYear": 679,
+    "time": 551,
+    "timeDay": 551,
+    "timeWeek": 551,
+    "timeMonth": 551,
+    "timeYear": 551,
     "dailyMinutesDown": {}
   }
 ]
