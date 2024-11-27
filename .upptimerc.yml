@@ -3,10 +3,9 @@ owner: StachRedeker
 repo: uptime # The name of this repository
 
 sites:
-  - name: Productieserver (s243)
+  - name: Productieserver - s243
     url: https://s243.webhostingserver.nl
-    __dangerous__insecure: true
-  - name: Developmentserver (h22)
+  - name: Developmentserver - h22
     url: 5.254.117.215
   - name: Studio Stach Homepage
     url: https://www.studiostach.nl/
