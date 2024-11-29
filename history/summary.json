@@ -22,18 +22,20 @@
     "url": "https://h22.mijn.host",
     "icon": "https://icons.duckduckgo.com/ip3/h22.mijn.host.ico",
     "slug": "developmentserver-h22",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 286,
     "timeDay": 390,
-    "timeWeek": 286,
+    "timeWeek": 302,
     "timeMonth": 286,
     "timeYear": 286,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-11-29": 0
+    }
   },
   {
     "name": "Studio Stach Homepage",
@@ -48,7 +50,7 @@
     "uptimeYear": "100.00%",
     "time": 1061,
     "timeDay": 836,
-    "timeWeek": 1061,
+    "timeWeek": 1070,
     "timeMonth": 1061,
     "timeYear": 1061,
     "dailyMinutesDown": {}
