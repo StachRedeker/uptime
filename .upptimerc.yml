@@ -9,7 +9,7 @@ sites:
     url: https://h22.mijn.host
   - name: Studio Stach Homepage
     url: https://www.studiostach.nl/
-  - name: Mail Relay
+  - name: Mailserver
     url: https://mail.antagonist.nl/
 
 status-website:
