@@ -16,7 +16,8 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.studiostach.nl
-  #baseUrl: /uptime
+  theme: stach
+  faviconSvg: https://www.studiostach.nl/wp-content/uploads/2024/06/Beeldmerk-donkerpaars.svg
   logoUrl: https://www.studiostach.nl/wp-content/uploads/2024/06/logo-v4-1.svg
   introTitle: "**Studio Stach** is transparant over de bereikbaarheid van haar diensten."
   introMessage: Op deze website vind je de historische uptime van de services gelinkt aan Studio Stach. Eventuele incidenten worden hier ook toegelicht.
