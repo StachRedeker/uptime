@@ -18,7 +18,6 @@ status-website:
   cname: status.studiostach.nl
   #baseUrl: /uptime
   logoUrl: https://www.studiostach.nl/wp-content/uploads/2024/06/logo-v4-1.svg
-  name: Uptime Monitor | Studio Stach
   introTitle: "**Studio Stach** is transparant over de bereikbaarheid van haar diensten."
   introMessage: Op deze website vind je de historische uptime van de services gelinkt aan Studio Stach. Eventuele incidenten worden hier ook toegelicht.
 
