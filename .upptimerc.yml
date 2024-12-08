@@ -16,7 +16,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.studiostach.nl
-  theme: stach
+  themeUrl: https://status.studiostach.nl/stach.css
   name: Uptime Monitor
   faviconSvg: https://www.studiostach.nl/wp-content/uploads/2024/06/Beeldmerk-donkerpaars.svg
   logoUrl: https://www.studiostach.nl/wp-content/uploads/2024/06/logo-v4-1.svg
