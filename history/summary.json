@@ -24,8 +24,8 @@
     "slug": "developmentserver-h22",
     "status": "up",
     "uptime": "99.34%",
-    "uptimeDay": "75.02%",
-    "uptimeWeek": "94.30%",
+    "uptimeDay": "75.88%",
+    "uptimeWeek": "94.31%",
     "uptimeMonth": "98.69%",
     "uptimeYear": "99.34%",
     "time": 543,
@@ -34,7 +34,7 @@
     "timeMonth": 547,
     "timeYear": 543,
     "dailyMinutesDown": {
-      "2025-01-22": 58,
+      "2025-01-22": 57,
       "2025-01-21": 479,
       "2025-01-20": 39
     }
