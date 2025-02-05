@@ -12,7 +12,7 @@
     "uptimeYear": "100.00%",
     "time": 501,
     "timeDay": 498,
-    "timeWeek": 499,
+    "timeWeek": 500,
     "timeMonth": 503,
     "timeYear": 501,
     "dailyMinutesDown": {}
@@ -22,12 +22,12 @@
     "url": "https://h22.mijn.host",
     "icon": "https://icons.duckduckgo.com/ip3/h22.mijn.host.ico",
     "slug": "developmentserver-h22",
-    "status": "up",
-    "uptime": "97.08%",
-    "uptimeDay": "82.44%",
+    "status": "down",
+    "uptime": "97.15%",
+    "uptimeDay": "82.42%",
     "uptimeWeek": "79.20%",
-    "uptimeMonth": "92.87%",
-    "uptimeYear": "97.08%",
+    "uptimeMonth": "93.03%",
+    "uptimeYear": "97.15%",
     "time": 551,
     "timeDay": 568,
     "timeWeek": 607,
@@ -44,7 +44,7 @@
       "2025-01-29": 233,
       "2025-01-28": 386,
       "2025-01-27": 343,
-      "2025-01-26": 265
+      "2025-01-26": 192
     }
   },
   {
@@ -60,7 +60,7 @@
     "uptimeYear": "100.00%",
     "time": 1073,
     "timeDay": 1089,
-    "timeWeek": 1068,
+    "timeWeek": 1069,
     "timeMonth": 1081,
     "timeYear": 1073,
     "dailyMinutesDown": {}
@@ -79,7 +79,7 @@
     "time": 533,
     "timeDay": 534,
     "timeWeek": 531,
-    "timeMonth": 535,
+    "timeMonth": 536,
     "timeYear": 533,
     "dailyMinutesDown": {}
   }
