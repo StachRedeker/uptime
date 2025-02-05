@@ -22,12 +22,12 @@
     "url": "https://h22.mijn.host",
     "icon": "https://icons.duckduckgo.com/ip3/h22.mijn.host.ico",
     "slug": "developmentserver-h22",
-    "status": "up",
-    "uptime": "97.15%",
-    "uptimeDay": "77.49%",
-    "uptimeWeek": "78.35%",
-    "uptimeMonth": "93.03%",
-    "uptimeYear": "97.15%",
+    "status": "down",
+    "uptime": "97.18%",
+    "uptimeDay": "77.47%",
+    "uptimeWeek": "78.37%",
+    "uptimeMonth": "93.09%",
+    "uptimeYear": "97.18%",
     "time": 551,
     "timeDay": 567,
     "timeWeek": 608,
@@ -44,7 +44,7 @@
       "2025-01-29": 233,
       "2025-01-28": 386,
       "2025-01-27": 343,
-      "2025-01-26": 78
+      "2025-01-26": 54
     }
   },
   {
