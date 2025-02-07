@@ -13,27 +13,18 @@ jobs:
       - name: Ensure GitHub CLI is available
         run: gh --version
 
-      - name: Authenticate GitHub CLI
+      # Option 1: Rely on GH_TOKEN from the environment (no explicit auth step)
+      - name: Delete all issues
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          # Store the token in a temporary variable.
-          token="$GH_TOKEN"
-          # Unset GH_TOKEN so that gh auth login does not auto-authenticate.
-          unset GH_TOKEN
-          # Authenticate using the token provided via standard input.
-          echo "$token" | gh auth login --with-token
-
-      - name: Delete all issues
-        run: |
           echo "Listing all issues in the repository..."
-          # List all issues (both open and closed) and extract their numbers.
-          issues=$(gh issue list --state all --json number --jq '.[].number')
+          # Fetch up to 1000 issues (both open and closed) and extract their numbers.
+          issues=$(gh issue list --state all --limit 1000 --json number --jq '.[].number')
           echo "Found issues: $issues"
           
           for issue in $issues; do
             echo "Attempting to delete issue #$issue..."
-            # The --confirm flag bypasses interactive confirmation.
             gh issue delete "$issue" --confirm || echo "Could not delete issue #$issue"
           done
           echo "Deletion process complete."
