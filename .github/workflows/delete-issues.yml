@@ -1,6 +1,5 @@
 name: Delete All Issues
 
-# This workflow is triggered manually.
 on:
   workflow_dispatch:
 
@@ -18,11 +17,14 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          echo "$GH_TOKEN" | gh auth login --with-token
+          # Store the token in a temporary variable.
+          token="$GH_TOKEN"
+          # Unset GH_TOKEN so that gh auth login does not auto-authenticate.
+          unset GH_TOKEN
+          # Authenticate using the token provided via standard input.
+          echo "$token" | gh auth login --with-token
 
       - name: Delete all issues
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           echo "Listing all issues in the repository..."
           # List all issues (both open and closed) and extract their numbers.
