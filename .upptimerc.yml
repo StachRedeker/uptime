@@ -6,7 +6,7 @@ sites:
   - name: Productieserver - s243
     url: https://s243.webhostingserver.nl
   - name: Developmentserver - h22
-    url: https://h22.mijn.host:2222
+    url: https://studiostach.net:2222/
   - name: Studio Stach Homepage
     url: https://www.studiostach.nl/
   - name: Mailserver
