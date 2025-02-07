@@ -23,10 +23,11 @@ jobs:
 
       - name: Fetch and Delete All Issues
         run: |
-          ISSUES=$(gh issue list --limit 100 --json number --jq '.[].number')
+          REPO="StachRedeker/uptime"
+          ISSUES=$(gh issue list -R $REPO --limit 100 --json number --jq '.[].number')
           for ISSUE in $ISSUES; do
             echo "Deleting issue #$ISSUE..."
-            gh issue delete "$ISSUE" --yes
+            gh issue delete "$ISSUE" -R $REPO --yes
           done
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
