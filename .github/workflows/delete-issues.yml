@@ -1,33 +1,37 @@
 name: Delete All Issues
 
+# This workflow is triggered manually.
 on:
-  workflow_dispatch:  # Allows manual trigger
-
-permissions:
-  issues: write
+  workflow_dispatch:
 
 jobs:
-  delete_issues:
+  delete-issues:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Install GitHub CLI
-        run: |
-          sudo apt update
-          sudo apt install gh -y
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Ensure GitHub CLI is available
+        run: gh --version
 
       - name: Authenticate GitHub CLI
-        run: gh auth status
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
-      - name: Fetch and Delete All Issues
         run: |
-          REPO="StachRedeker/uptime"
-          ISSUES=$(gh issue list -R $REPO --limit 100 --json number --jq '.[].number')
-          for ISSUE in $ISSUES; do
-            echo "Deleting issue #$ISSUE..."
-            gh issue delete "$ISSUE" -R $REPO --yes
-          done
+          echo "$GH_TOKEN" | gh auth login --with-token
+
+      - name: Delete all issues
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          echo "Listing all issues in the repository..."
+          # List all issues (both open and closed) and extract their numbers.
+          issues=$(gh issue list --state all --json number --jq '.[].number')
+          echo "Found issues: $issues"
+          
+          for issue in $issues; do
+            echo "Attempting to delete issue #$issue..."
+            # The --confirm flag bypasses interactive confirmation.
+            gh issue delete "$issue" --confirm || echo "Could not delete issue #$issue"
+          done
+          echo "Deletion process complete."
