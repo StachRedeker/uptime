@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
       - name: Install GitHub CLI
         run: |
           sudo apt update
@@ -24,12 +21,12 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - name: Delete All Issues
+      - name: Fetch and Delete All Issues
         run: |
           ISSUES=$(gh issue list --limit 100 --json number --jq '.[].number')
           for ISSUE in $ISSUES; do
-            echo "Deleting issue #$ISSUE"
-            gh issue delete "$ISSUE" --confirm
+            echo "Deleting issue #$ISSUE..."
+            gh issue delete "$ISSUE" --yes
           done
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
