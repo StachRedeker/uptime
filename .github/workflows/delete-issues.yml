@@ -1,0 +1,35 @@
+name: Delete All Issues
+
+on:
+  workflow_dispatch:  # Allows manual trigger
+
+permissions:
+  issues: write
+
+jobs:
+  delete_issues:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install GitHub CLI
+        run: |
+          sudo apt update
+          sudo apt install gh -y
+
+      - name: Authenticate GitHub CLI
+        run: gh auth status
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Delete All Issues
+        run: |
+          ISSUES=$(gh issue list --limit 100 --json number --jq '.[].number')
+          for ISSUE in $ISSUES; do
+            echo "Deleting issue #$ISSUE"
+            gh issue delete "$ISSUE" --confirm
+          done
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
