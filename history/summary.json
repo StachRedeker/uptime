@@ -22,11 +22,11 @@
     "url": "https://studiostach.net:2222/",
     "icon": "https://icons.duckduckgo.com/ip3/studiostach.net.ico",
     "slug": "developmentserver-h22",
-    "status": "up",
+    "status": "down",
     "uptime": "99.79%",
-    "uptimeDay": "83.40%",
-    "uptimeWeek": "97.63%",
-    "uptimeMonth": "99.45%",
+    "uptimeDay": "83.96%",
+    "uptimeWeek": "97.71%",
+    "uptimeMonth": "99.47%",
     "uptimeYear": "99.79%",
     "time": 556,
     "timeDay": 843,
@@ -34,7 +34,7 @@
     "timeMonth": 579,
     "timeYear": 556,
     "dailyMinutesDown": {
-      "2025-02-08": 224,
+      "2025-02-08": 216,
       "2025-02-07": 15
     }
   },
