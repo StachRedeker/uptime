@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/studiostach.net.ico",
     "slug": "developmentserver-h22",
     "status": "down",
-    "uptime": "99.90%",
-    "uptimeDay": "92.41%",
-    "uptimeWeek": "98.92%",
-    "uptimeMonth": "99.75%",
-    "uptimeYear": "99.90%",
+    "uptime": "99.89%",
+    "uptimeDay": "91.50%",
+    "uptimeWeek": "98.79%",
+    "uptimeMonth": "99.72%",
+    "uptimeYear": "99.89%",
     "time": 552,
     "timeDay": 630,
     "timeWeek": 582,
     "timeMonth": 572,
     "timeYear": 552,
     "dailyMinutesDown": {
-      "2025-02-08": 94,
+      "2025-02-08": 107,
       "2025-02-07": 15
     }
   },
@@ -69,8 +69,8 @@
     "uptimeYear": "100.00%",
     "time": 533,
     "timeDay": 535,
-    "timeWeek": 526,
-    "timeMonth": 535,
+    "timeWeek": 527,
+    "timeMonth": 534,
     "timeYear": 533,
     "dailyMinutesDown": {}
   }
