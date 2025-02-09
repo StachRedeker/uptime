@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 501,
-    "timeDay": 517,
+    "timeDay": 515,
     "timeWeek": 501,
-    "timeMonth": 503,
+    "timeMonth": 502,
     "timeYear": 501,
     "dailyMinutesDown": {}
   },
@@ -24,18 +24,16 @@
     "slug": "developmentserver-h22",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.86%",
-    "uptimeWeek": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 556,
-    "timeDay": 768,
-    "timeWeek": 601,
+    "time": 555,
+    "timeDay": 755,
+    "timeWeek": 600,
     "timeMonth": 578,
-    "timeYear": 556,
-    "dailyMinutesDown": {
-      "2025-02-08": 2
-    }
+    "timeYear": 555,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Studio Stach Homepage",
@@ -49,8 +47,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1072,
-    "timeDay": 1091,
-    "timeWeek": 1064,
+    "timeDay": 1087,
+    "timeWeek": 1065,
     "timeMonth": 1078,
     "timeYear": 1072,
     "dailyMinutesDown": {}
@@ -67,7 +65,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 533,
-    "timeDay": 544,
+    "timeDay": 542,
     "timeWeek": 531,
     "timeMonth": 535,
     "timeYear": 533,
