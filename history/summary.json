@@ -13,7 +13,7 @@
     "time": 502,
     "timeDay": 534,
     "timeWeek": 514,
-    "timeMonth": 506,
+    "timeMonth": 505,
     "timeYear": 502,
     "dailyMinutesDown": {
       "2025-02-13": 24
@@ -26,7 +26,7 @@
     "slug": "developmentserver-h22",
     "status": "up",
     "uptime": "97.92%",
-    "uptimeDay": "79.59%",
+    "uptimeDay": "80.32%",
     "uptimeWeek": "78.95%",
     "uptimeMonth": "94.07%",
     "uptimeYear": "97.92%",
@@ -59,9 +59,9 @@
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.98%",
     "time": 1075,
-    "timeDay": 1128,
+    "timeDay": 1124,
     "timeWeek": 1102,
-    "timeMonth": 1079,
+    "timeMonth": 1078,
     "timeYear": 1075,
     "dailyMinutesDown": {
       "2025-02-13": 23
@@ -79,7 +79,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 534,
-    "timeDay": 567,
+    "timeDay": 565,
     "timeWeek": 543,
     "timeMonth": 536,
     "timeYear": 534,
