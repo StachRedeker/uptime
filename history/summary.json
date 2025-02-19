@@ -11,8 +11,8 @@
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.98%",
     "time": 502,
-    "timeDay": 502,
-    "timeWeek": 505,
+    "timeDay": 504,
+    "timeWeek": 506,
     "timeMonth": 505,
     "timeYear": 502,
     "dailyMinutesDown": {
@@ -24,14 +24,14 @@
     "url": "5.254.117.215",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "developmentserver-h22",
-    "status": "up",
-    "uptime": "97.74%",
-    "uptimeDay": "77.05%",
+    "status": "down",
+    "uptime": "97.76%",
+    "uptimeDay": "77.03%",
     "uptimeWeek": "78.75%",
-    "uptimeMonth": "93.43%",
-    "uptimeYear": "97.74%",
+    "uptimeMonth": "93.50%",
+    "uptimeYear": "97.76%",
     "time": 518,
-    "timeDay": 229,
+    "timeDay": 231,
     "timeWeek": 262,
     "timeMonth": 488,
     "timeYear": 518,
@@ -46,7 +46,7 @@
       "2025-02-12": 256,
       "2025-02-11": 307,
       "2025-02-10": 278,
-      "2025-02-09": 98
+      "2025-02-09": 69
     }
   },
   {
@@ -61,9 +61,9 @@
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.98%",
     "time": 1075,
-    "timeDay": 1122,
+    "timeDay": 1126,
     "timeWeek": 1105,
-    "timeMonth": 1078,
+    "timeMonth": 1079,
     "timeYear": 1075,
     "dailyMinutesDown": {
       "2025-02-13": 23
@@ -81,7 +81,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 534,
-    "timeDay": 553,
+    "timeDay": 554,
     "timeWeek": 541,
     "timeMonth": 536,
     "timeYear": 534,
