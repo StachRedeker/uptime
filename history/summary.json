@@ -25,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "developmentserver-h22",
     "status": "up",
-    "uptime": "97.79%",
-    "uptimeDay": "78.95%",
-    "uptimeWeek": "77.01%",
-    "uptimeMonth": "93.17%",
-    "uptimeYear": "97.79%",
+    "uptime": "97.78%",
+    "uptimeDay": "80.94%",
+    "uptimeWeek": "77.10%",
+    "uptimeMonth": "93.14%",
+    "uptimeYear": "97.78%",
     "time": 502,
-    "timeDay": 454,
+    "timeDay": 450,
     "timeWeek": 258,
     "timeMonth": 426,
     "timeYear": 502,
     "dailyMinutesDown": {
-      "2025-02-24": 254,
+      "2025-02-24": 244,
       "2025-02-23": 304,
       "2025-02-22": 266,
       "2025-02-21": 351,
@@ -45,7 +45,7 @@
       "2025-02-18": 314,
       "2025-02-17": 159,
       "2025-02-16": 383,
-      "2025-02-15": 166
+      "2025-02-15": 189
     }
   },
   {
