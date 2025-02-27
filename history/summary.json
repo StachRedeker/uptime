@@ -24,7 +24,7 @@
     "url": "5.254.117.215",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "developmentserver-h22",
-    "status": "down",
+    "status": "up",
     "uptime": "97.77%",
     "uptimeDay": "77.82%",
     "uptimeWeek": "80.57%",
@@ -32,7 +32,7 @@
     "uptimeYear": "97.77%",
     "time": 494,
     "timeDay": 297,
-    "timeWeek": 266,
+    "timeWeek": 267,
     "timeMonth": 396,
     "timeYear": 494,
     "dailyMinutesDown": {
